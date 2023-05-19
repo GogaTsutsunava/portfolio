@@ -1,0 +1,149 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.info li {
+  font-size: 16px;
+  text-decoration: none;
+}
+.div-none {
+  display: none !important;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #173b6c;
+  font-family: "Raleway", sans-serif;
+}
+.font a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+.font a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.font li {
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+.image {
+  margin: auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+.main-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #040b14;
+  overflow: auto;
+}
+.h3 {
+  align-items: center;
+  text-align: center;
+}
+.media {
+  text-align: center;
+  padding-top: 20px;
+}
+.about-3 {
+  margin-left: 20px;
+}
+.about-3 h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+.about-3 p {
+  font-style: italic;
+}
+.media-link {
+  font-size: 18px;
+  display: inline-block;
+  background: #28335f;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+/*line of About*/
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+.font {
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "Alkalami", serif;
+  color: #9598aa;
+}
+.block {
+  display: none !important;
+}
+.div-none {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* hide menu and show hamburger menu */
+  .block {
+    display: block !important;
+  }
+  .main-div {
+    display: none;
+  }
+  .none {
+    display: none;
+  }
+  /*  */
+  .about-3 {
+    margin-left: 0px;
+  }
+  #main {
+    margin-left: 0 !important;
+  }
+  h3 {
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+  }
+}
+#main {
+  margin-left: 300px;
+}
+.about-2 {
+  padding: 60px 0;
+  overflow: hidden;
+}

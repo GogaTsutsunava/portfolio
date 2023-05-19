@@ -1,0 +1,153 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.font a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+
+.font a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.font li {
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.image {
+  margin: auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.main-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #040b14;
+  overflow: auto;
+}
+
+
+.h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.media {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.media-link {
+  font-size: 18px;
+  display: inline-block;
+  background: #28335f;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+.font {
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "Alkalami", serif;
+  color: #9598aa;
+}
+
+.block {
+  display: none !important;
+}
+
+.div-none {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .block {
+    display: block !important;
+  }
+
+  .main-div {
+    display: none;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .about-3 {
+    margin-left: 0px;
+  }
+
+  #main {
+    margin-left: 0 !important;
+  }
+
+  h3 {
+    text-align: center;
+  }
+}
+
+#main {
+  margin-left: 300px;
+}
+
+.resume-2 {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #173b6c;
+  font-family: "Raleway", sans-serif;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.borderl {
+  padding: 0 20px 0px;
+  border-left: 2px solid #1f5297;
+}

@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+.font a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+.font a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.align {
+  text-align: justify;
+  font-size: 36px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.align h1 {
+  color: #c7b0b0;
+}
+.align h2 {
+  color: #0F4C81;
+}
+.align h3 {
+  color: rgb(182, 168, 168);
+}
+
+.cv {
+  color: rgb(167, 128, 128);
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.cv:hover {
+  color: white;
+}
+
+.font li {
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.image {
+  margin: auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.main-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #040b14;
+  overflow: auto;
+}
+
+.h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.media {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.media-link {
+  font-size: 18px;
+  display: inline-block;
+  background: #28335f;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+.font {
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "Alkalami", serif;
+  color: #9598aa;
+}
+
+.block {
+  display: none !important;
+}
+
+.div-none {
+  display: none !important;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+/*line of About*/
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+.section-title {
+  padding-bottom: 30px;
+}
+.container2 {
+  width: 80% !important;
+  background-color: #ddd;
+  margin-left: 20%;
+}
+
+.skills2 {
+  text-align: right;
+  /* padding-top: 0px; */
+  /* padding-bottom: 10px; */
+  color: white;
+}
+
+.html {width: 90%; background-color: #616161!important;}
+.css {width: 80%; background-color: #616161!important;}
+.js {width: 65%; background-color: #616161!important;}
+.php {width: 40%; background-color: #616161!important;}
+.angular {width: 80%; background-color: #616161!important;}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #173b6c;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  left: 25%;
+  top: 0%;
+}
+.skills-list{
+  list-style: disc;
+  font-size: 17px;
+  cursor: auto;
+}
+.p{
+  position: absolute;
+  top: 60%;
+  width:70%;
+  left: 25%;
+  font-family: 'Quicksand', sans-serif;
+}
+.personal-skills{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+
+}
+
+@media only screen and (max-width: 1115px){
+  .section-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #173b6c;
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 0%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .block {
+    display: block !important;
+  }
+  .main-div {
+    display: none;
+  }
+  .align {
+    text-align: center;
+  }
+  .none {
+    display: none;
+  }
+  .section-title h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #173b6c;
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    left: 27%;
+    top: 5%;
+  }
+  .personal-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .p {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 100px;
+
+  }
+  .position{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 100px;
+  
+  }
+  .container2 {
+    width: 80% !important;
+    background-color: #ddd;
+    margin-left: 0%;
+  }
+  
+}
+
